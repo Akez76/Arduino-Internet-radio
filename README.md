@@ -9,7 +9,6 @@ This project is an Internet Radio built using an ESP32 microcontroller. It strea
 - PAM8403 Audio Amplifier Module
 - Speaker
 - Rotary Encoder with Push Button
-- 220 Ohm resistors
 - 5V Power Supply
 - Connecting wires
 
@@ -24,8 +23,8 @@ This project is an Internet Radio built using an ESP32 microcontroller. It strea
 
 | Component            | ESP32 Pin |
 |----------------------|-----------|
-| OLED SDA             | D21       |
-| OLED SCL             | D22       |
+| OLED SDA             | 1021      |
+| OLED SDK             | 1024      |
 | Rotary Encoder CLK   | D33       |
 | Rotary Encoder DT    | D32       |
 | Rotary Encoder SW    | D25       |
