@@ -28,8 +28,8 @@
 #include <RH_Serial.h>
 #include <RH_TCP.h>
 
-#include <RH_ASK.h>                              // Подключение библиотеки RadioHead 
-#include <SPI.h>                                 // Подключение библиотеки SPI 
+#include <RH_ASK.h>                              // Connecting library RadioHead 
+#include <SPI.h>                                 // Connecting library SPI 
  
 // Arduino                     Transmitter
 //  GND--------------------------GND
@@ -81,27 +81,27 @@ void loop() {
 #include <RH_TCP.h>
 
 
-#include <RH_ASK.h>                              // Подключение библиотеки RadioHead 
-#include <SPI.h>                                 // Подключение библиотеки SPI 
+#include <RH_ASK.h>                              // Connecting library RadioHead 
+#include <SPI.h>                                 // Connecting library SPI 
 
-RH_ASK rf_driver;                                // Создаем объект "RH_ASK" для работы с библиотекой RadioHead
+RH_ASK rf_driver;                                // Create object "RH_ASK" for working with library RadioHead
 
 void setup()
 {
-  rf_driver.init();                            // Инициализация библиотеки RadioHead.
-  Serial.begin(9600);                          // Настройка последовательной связи
+  rf_driver.init();                            // Initialization RadioHead.
+  Serial.begin(9600);                          // Configuring serial communication
   pinMode(9, OUTPUT);
 }
 
 void loop()
 {
-  uint8_t buf[15];                            // Создаем буфер для получения сообщения
+  uint8_t buf[15];                            // Creating a buffer for the message
   uint8_t buflen = sizeof(buf);
-  if (rf_driver.recv(buf, &buflen))           // Включение радиомодуля и чтение сообщения
+  if (rf_driver.recv(buf, &buflen))           // Turning on the radio module and reading the message
   {
     String buff = String((char*)buf);
-    Serial.print("Message Received: ");       // Печать текста
-    Serial.println (buff);               // Печать полученного сообщения
+    Serial.print("Message Received: ");       // Printing the text
+    Serial.println (buff);               // Printing the received message
     if (buff == "On") {
       digitalWrite(9, HIGH);
     }
