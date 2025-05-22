@@ -43,9 +43,9 @@ This project is an Internet Radio built using an ESP32 microcontroller. It strea
 - RotaryEncoder
 
 # 5.Photos
-(https://github.com/Akez76/Arduino-Internet-radio/blob/main/Arduino%20Wifi2.jpeg)
-(https://github.com/Akez76/Arduino-Internet-radio/blob/main/Arduino%20Wifi1.jpeg)
-(https://github.com/Akez76/Arduino-Internet-radio/blob/main/Arduino%20Wifi.jpeg)
+- (https://github.com/Akez76/Arduino-Internet-radio/blob/main/Arduino%20Wifi2.jpeg)
+- (https://github.com/Akez76/Arduino-Internet-radio/blob/main/Arduino%20Wifi1.jpeg)
+- (https://github.com/Akez76/Arduino-Internet-radio/blob/main/Arduino%20Wifi.jpeg)
 
 # 6.Skills Used / Learned
 - Internet audio streaming
