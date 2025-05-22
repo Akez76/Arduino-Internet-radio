@@ -44,9 +44,8 @@ This project is an Internet Radio built using an ESP32 microcontroller. It strea
 
 # 5.Photos
 (https://github.com/Akez76/Arduino-Internet-radio/blob/main/WhatsApp%20Image%202025-05-22%20at%2012.41.33.jpeg)
+(https://github.com/Akez76/Arduino-Internet-radio/blob/main/WhatsApp%20Image%202025-05-22%20at%2015.52.54.jpeg)
 (https://github.com/Akez76
-
-  
 
 # 6.Skills Used / Learned
 - Internet audio streaming
